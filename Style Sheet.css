@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+/* Home Page Heading - Re-Paint */ 
+		h1 {
+			font-family: 'source-sans-pro', 'sans-serif'; font-size: 100pt; font-weight: bold; color:#EA6A00; text-align: center; padding-top: 225pt; margin: 0
+
+		}
+/* Home Page Subtitle - Recycling Paint Responsibly */
+		h2 {
+			font-family: 'source-sans-pro', 'sans-serif';
+			font-size: 25pt;
+			text-align: center;
+			font-weight: bolder;
+			color: #EA6A00;
+			padding-top: 0pt;
+			padding-left: 0px;
+		} 
+		h2 span {background-color: whitesmoke}
+/* Page Heading - Light Pink */
+		h3 {
+			font-family: "source-sans-pro", "sans-serif"; 
+			font-size: 50pt; 
+			text-align: left; 
+			font-weight: bold; 
+			color: #DECAD3;
+			padding-left: 20px;
+		} 
+/* Page Heading - dark pinky purple */
+		h4 {font-family: "source-sans-pro", "sans-serif"; 
+			font-size: 50pt; 
+			align-content: left; 
+			font-weight: bold; 
+			color: #5B1835;
+			padding-left: 30pt;
+		}
+/* Body text - black */
+		body {
+			font-family: "source-sans-pro", "sans-serif"; 
+			font-size: 14pt; 
+			align-content: left; 
+			font-weight: normal; 
+			colour: #000000;
+		}
+
+/* ALL PAGES */
+	/* navbar */
+		.navbar {
+		  	overflow: hidden;
+		  	background-color: #EA6A00;
+		  	position: fixed; /* Set the navbar to fixed position */
+		  	top: 0; /* Position the navbar at the top of the page */
+		  	width: 100%; /* Full width */
+			height: 35pt;
+			float: left;
+			display: block;
+			color: #5B1835;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-weight: bold;
+			font-family: "source-sans-pro", "sans-serif";
+}
+
+			/* Add a black background color to the top navigation */
+			.topnav {
+			  background-color: #EA6A00;
+			  overflow: hidden;
+			}
+
+			/* Style the links inside the navigation bar */
+			.topnav a {
+			  float: left;
+			  color: #5B1835;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+				font-weight: bold;
+			}
+
+			/* Change the color of links on hover */
+			.topnav a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+
+			/* Add a color to the active/current link */
+			.topnav a.active {
+			  background-color: #F9B450;
+			  color: #5B1835;
+}
+
+		s
+	/* Footer */
+			.footer {
+				padding-left: 20px;
+				padding-bottom: 40px;
+				font-family: "source-sans-pro", "sans-serif"; 
+				font-size: 14pt; 
+				align-content: right; 
+				font-weight: normal; 
+				colour: #000000;
+				
+			}
+
+/* HOME PAGE */
+/* Container holding the image and the text */
+	/* Container holding the image and the text */
+			.container {
+			  position: relative;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Bottom left text */
+			.bottom-left {
+			  position: absolute;
+			  bottom: 8px;
+			  left: 16px;
+			}
+
+			/* Top left text */
+			.top-left {
+			  position: absolute;
+			  top: 8px;
+			  left: 16px;
+			}
+
+			/* Top right text */
+			.top-right {
+			  position: absolute;
+			  top: 8px;
+			  right: 16px;
+			}
+
+			/* Bottom right text */
+			.bottom-right {
+			  position: absolute;
+			  bottom: 8px;
+			  right: 16px;
+			}
+
+			/* Centered text */
+			.centered {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+				font-family: 'source-sans-pro', 'sans-serif';
+			font-size: 100pt;
+			text-align: center;
+			font-weight: bolder;
+			color: #EA6A00;
+			padding-top: 0pt;
+			padding-left: 0px;
+				padding-bottom: 200pt;
+			}
+			/* Centered text */
+			.centeredb {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+				font-family: 'source-sans-pro', 'sans-serif';
+			font-size: 40pt;
+			text-align: center;
+			font-weight: bolder;
+			color: #EA6A00;
+			padding-top: 0pt;
+			padding-left: 0px;
+				padding-bottom: 30pt;
+			}
+
+/* ABOUT PAGE */
+	/* body text about page */
+			.aboutbody {
+				padding-top: 0pt;
+				font-family: "source-sans-pro", "sans-serif"; 
+				font-size: 14pt; 
+				align-content: left; 
+				font-weight: normal; 
+				colour: #000000;
+				padding-right: 10pt;
+				padding-left: 10pt;
+			}
+			.aboutbody2 {
+				padding-top: 0pt;
+				font-family: "source-sans-pro", "sans-serif";
+				font-size: 14pt;
+				align-content: left;
+				font-weight: normal;
+				color: #000000;
+				padding-left: 10;
+				padding-right: 10pt;
+				padding-bottom: 50pt;
+			}
+			.wordWrap
+			{
+				white-space: pre-wrap; 
+				word-wrap: break-word; 
+			}s
+
+/* Contact PAGE */
+
+	/* Body Text - light pink */
+			Contact-h2 {font-family: "source-sans-pro", "sans-serif"; 
+				font-size: 16pt; 
+				align-content: left; 
+				font-weight: bold; 
+				colour: #5B1835;
+				}
+
+/* PURCHASE PAGE */

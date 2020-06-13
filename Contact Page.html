@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Page</title>
+<link href="Style Sheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color: #FCA339">
+	<div class="topnav">
+		  <a href="Home page.html">Home</a>
+		  <a href="About Page.html">About</a>
+		  <a class="active" href="Contact Page.html">Contact</a>
+		  <a href="#about">Purchase</a>
+		</div>
+	
+	<h4>Contact</h4>
+	
+	<!-- 
+  Replace form-handler.php with URL where to send the form-data when the form is submitted
+  Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field
+-->
+<form method="post" action="form-handler.php">
+  <div>
+    <contact-h2></contact-h2>
+    <label for="name">Full Name: <span class="required">*</span> </label>
+    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+  </div>
+  
+  <div>
+    <contact-h2>Email Field</contact-h2>
+    <label for="email">Email Address: <span class="required">*</span> </label>
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  
+  <div>
+    <contact-h2>Password Field</contact-h2>
+    <label for="password">New Password: <span class="required">*</span> </label>
+    <input type="password" id="password" name="password" value="" placeholder="" required="required" />
+  </div>
+  
+  <div>
+    <contact-h2></contact-h2>
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject">
+      <option value="hello">Please Choose</option>
+		<option value="hello">Purchase</option>
+      <option value="quote">Support</option>
+      <option value="general">Media</option>
+		<option value="general">Other</option>
+    </select>
+  </div>
+  
+  <div>
+    <contact-h2>Text Area</contact-h2>
+    <label for="message">Message: <span class="required">*</span> </label>
+    <textarea id="message" name="message" placeholder="Write your message here." required ></textarea>
+  </div>
+  
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+	
+</body>
+</html>
